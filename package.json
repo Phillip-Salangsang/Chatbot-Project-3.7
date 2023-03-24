@@ -1,0 +1,77 @@
+{
+  "intents": [
+    {
+      "tag": "getting_started",
+      "patterns": [
+        "How do I use this chatbot?",
+        "What subjects do you offer tutoring for?"
+      ],
+      "responses": [
+        "Welcome! To use this chatbot, simply type in your question or request for tutoring. We offer tutoring for a variety of subjects, including math, science, and history. Let us know how we can assist you."
+      ]
+    },
+    {
+      "tag": "scheduling_session",
+      "patterns": [
+        "I would like to schedule a session for tomorrow at 3pm."
+      ],
+      "responses": [
+        "Sure, we can schedule a session for tomorrow at 3pm. Can you please provide your name and the subject you need help with?"
+      ]
+    },
+    {
+      "tag": "canceling_session",
+      "patterns": [
+        "I need to cancel my session for tomorrow."
+      ],
+      "responses": [
+        "No problem, we have canceled your session for tomorrow. If you need to reschedule, just let us know."
+      ]
+    },
+    {
+      "tag": "help_with_homework",
+      "patterns": [
+        "Can you help me with my math homework? I'm stuck on problem 7."
+      ],
+      "responses": [
+        "Sure, we can definitely help you with your math homework. Can you please provide a bit more information on problem 7 so we can better assist you?"
+      ]
+    },
+    {
+      "tag": "clarification_on_concept",
+      "patterns": [
+        "I don't understand how to use the quadratic formula. Can you explain it to me?"
+      ],
+      "responses": [
+        "Of course, we can explain the quadratic formula to you. The quadratic formula is used to find the roots of a quadratic equation. The formula is: x = (-b ± sqrt(b^2 - 4ac)) / 2a. Let us know if you have any other questions."
+      ]
+    },
+    {
+      "tag": "feedback",
+      "patterns": [
+        "I really enjoyed my session with my tutor today. They were very helpful!"
+      ],
+      "responses": [
+        "Thank you for your feedback! We're glad to hear that you found the session helpful. Let us know if you have any other feedback or suggestions for improvement."
+      ]
+    },
+    {
+      "tag": "study_tips",
+      "patterns": [
+        "What's the best way to study for a history exam?"
+      ],
+      "responses": [
+        "Great question! One of the best ways to study for a history exam is to create a study guide or outline of the key topics covered in class. You can also review your class notes, read the textbook, and create flashcards to help memorize important dates and events. Let us know if you need any further guidance."
+      ]
+    },
+    {
+      "tag": "tutor_recommendation",
+      "patterns": [
+        "Can you recommend a tutor who is good at helping with biology?"
+      ],
+      "responses": [
+        "Certainly! We have several biology tutors who are experts in their field and would be happy to assist you. Let us know if you have any other preferences, such as availability or teaching style, and we can recommend a tutor that is the right fit for you."
+      ]
+    }
+  ]
+}
